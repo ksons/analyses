@@ -35,7 +35,10 @@ var output = analyses(cfg, function (input, list) {
 	// this is used to determine if the output of a node still changes and to
 	// not enqueue any more successors and stop the iteration; defaults to
 	// Set.equals
-	equals: analyses.Set.equals
+	equals: analyses.Set.equals,
+	// start:
+	// Initial input set, defaults to the empty Set
+	start: new Set()
 });
 ```
 
