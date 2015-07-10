@@ -11,8 +11,8 @@
     "walkes": "~ 0.1.0"
   },
   "peerDependencies": {
-    "esprima": "~ 1.0",
-    "esgraph": "~ 0.1.0"
+    "esprima": "*",
+    "esgraph": "*"
   },
   "devDependencies": {
     "esprima": "~ 1.0",
